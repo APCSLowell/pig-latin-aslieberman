@@ -56,7 +56,7 @@ public class PigLatin {
 	    else if(findFirstVowel(sWord) == 0) {
 		    return sWord + "way";}
 	    else if(findFirstVowel(sWord) == -1) {
-		    return sWord;
+		    return sWord + "ay";
 	    }
 	    else {
 		return "ERROR!";
